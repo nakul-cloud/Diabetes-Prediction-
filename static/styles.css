@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Font for the entire body */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+/* Center the title */
+h2 {
+    text-align: center; /* Center align the title */
+    color: #4a90e2; /* Blue color for the title */
+    margin-top: 30px; /* Space from the top */
+}
+
+/* Container for the form */
+form {
+    max-width: 500px; /* Max width for the form */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px; /* Padding inside the form */
+    background: white; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Styling for labels */
+label {
+    font-weight: bold; /* Bold font for labels */
+    color: #333; /* Dark grey color for text */
+}
+
+/* Input fields styling */
+input[type="text"] {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside input fields */
+    margin: 10px 0; /* Margin around input fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4a90e2; /* Blue background */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding inside button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    display: block; /* Make it block level for centering */
+    margin: 20px auto; /* Center the button */
+}
+
+/* Button hover effect */
+input[type="submit"]:hover {
+    background-color: #357ab7; /* Darker blue on hover */
+}
+
+/* Prediction text styling */
+h3 {
+    text-align: center; /* Center align prediction text */
+    color: #333; /* Dark grey color for text */
+    margin-top: 20px; /* Space from the top */
+}
